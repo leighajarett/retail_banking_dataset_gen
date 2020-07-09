@@ -1,0 +1,9 @@
+transactions.csv
+transactions_storage.csv
+transactions2.csv
+transactions3.csv
+customer_test.csv
+env/
+.ipynb_checkpoints/
+_pycache_/
+Untitled.ipynb

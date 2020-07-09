@@ -1,0 +1,66 @@
+{
+	"avg_transactions_per_day": {
+					"min": 0,
+					"max": 6
+					 },
+	"date_wt": {"day_of_week": 
+				   {"monday": 80,
+					"tuesday": 80,
+					"wednesday": 80,
+					"thursday": 80,
+					"friday": 200,
+					"saturday": 250,
+					"sunday": 150
+					},
+				"time_of_year": {
+								"holidays": {"start_date (MM-DD)": "11-30", "end_date (MM-DD)": "12-31", "weight": 200},
+								"post_holidays": {"start_date (MM-DD)": "1-1", "end_date (MM-DD)": "02-28", "weight": 75},
+								"summer": {"start_date (MM-DD)": "05-24", "end_date (MM-DD)": "09-01", "weight": 125}
+								},
+								"year": {"0": 110, "1": 115, "2": 120, "3": 125, "4":130,"5":135,"6":130,"7":130,"8":130,"9":130}
+				},
+	"categories_wt": {
+						"health_fitness": 80,
+						"grocery_net": 10,
+						"grocery_pos": 10,
+						"misc_net":  20,
+						"misc_pos": 200,
+						"home": 50,
+						"personal_care": 100,
+						"kids_pets": 50,
+						"shopping_net": 125,
+						"shopping_pos": 200,
+						"entertainment": 80,
+						"food_dining": 80,
+						"gas_transport": 200,
+						"travel": 20
+					},
+	"categories_amt": {
+					"gas_transport": {"mean": 60, "stdev": 15},
+					"grocery_net": {"mean": 30, "stdev": 20},
+					"grocery_pos": {"mean": 60, "stdev": 20},
+					"misc_net": {"mean": 120, "stdev": 60},
+					"misc_pos":  {"mean": 140, "stdev": 90},
+					"shopping_net": {"mean": 90, "stdev": 120},
+					"shopping_pos": {"mean": 150, "stdev": 35},
+					"entertainment": {"mean": 90, "stdev": 30},
+					"food_dining": {"mean": 20, "stdev": 50},
+					"health_fitness": {"mean": 40, "stdev": 50},
+					"home": {"mean": 40, "stdev": 50},
+					"kids_pets": {"mean": 50, "stdev": 50},
+					"personal_care": {"mean": 35, "stdev": 50},
+					"travel": {"mean": 40, "stdev": 600}
+				},
+  	"shopping_time": {
+		"Early Morning": 5,
+		"Late Morning": 20,
+		"Early Afternoon": 20,
+		"Late Afternoon": 10,
+		"Early Night": 20,
+		"Late Night": 5,
+		"Total Night": 2
+		 },
+	"travel_pct": 10,
+  	"travel_max_dist" : 500
+
+}
