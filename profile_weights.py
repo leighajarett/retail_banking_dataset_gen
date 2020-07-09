@@ -112,6 +112,8 @@ class Profile:
     def prep_years(self):
         final_year = {}
         # extract years to have transactions for
+        print(self.start, self.end)
+        print(self.start.year, self.end.year)
         years = [y for y in range(self.start.year, self.end.year+1)]
         years.sort()
         #print(years)
